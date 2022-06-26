@@ -1,0 +1,82 @@
+:root{
+    --azul-escuro: hsl(212, 88%, 7%);
+    --branco: hsl(0, 0%, 100%);
+    --cinza-claro:hsl(217, 12%, 63%);
+    --cinza-medio: hsl(224, 11%, 20%);
+    --fonte-principal: 'Overpass';
+    --laranja: hsl(25, 97%, 53%);
+}
+
+body{
+    background-color: var(--azul-escuro);
+    font-family: var(--fonte-principal);
+}
+
+.principal{
+
+}
+
+.principal__div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal__imagem{
+    background-color: var(--cinza-medio);
+    border-radius: 100px;   
+    padding: 1rem;
+    width: 40px;
+}
+
+.principal__titulo{
+    color: var(--branco);
+}
+
+.principal__paragrafo{
+    color: var(--branco);
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.principal__lista{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.principal__lista-item{
+    background-color: var(--cinza-medio);
+    border-radius: 30px;
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 1rem;
+    height: 30px;
+    list-style: none;
+    margin: 0 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    width: 30px;
+}
+
+.principal__lista-item:hover{
+    background-color: var(--cinza-claro);
+    transition: 0.5s;
+}
+
+.principal__botao{
+    background-color: var(--laranja);
+    border: none;
+    border-radius: 40px;
+    color: var(--branco);
+    padding: 1rem;
+    width: 50vw;
+}
+
+.principal__botao:hover{
+    color:hsl(213, 19%, 18%);
+    transition: 0.5s;
+}

@@ -3,47 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Interactive rating component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Overpass&display=swap" rel="stylesheet">
+  <title>Avaliação de restaurante</title>
   </style>
 </head>
 <body>
 
-  <!-- Rating state start -->
+  <main class="principal">
+    <img src="./assets/images/icon-star.svg" class="principal__imagem">
+      <div class="principal__div">
+        <h1 class="principal__titulo">How did we do?</h1>
+        <p class="principal__paragrafo">Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!</p>
+        <ul class="principal__lista">
+          <li class="principal__lista-item">1</li>
+          <li class="principal__lista-item">2</li>
+          <li class="principal__lista-item">3</li>
+          <li class="principal__lista-item">4</li>
+          <li class="principal__lista-item">5</li>
+        </ul>
+        <button class="principal__botao">Submit</button>
+      </div>
+  </main>
 
-  How did we do?
-
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
-
-  1 2 3 4 5
-
-  Submit
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
+  <!-- You selected ? out of 5
 
   Thank you!
 
   We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
+  don’t hesitate to get in touch! -->
 
   <!-- Thank you state end -->
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+<!--   
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Rafael Lanogni</a>.
+  </footer> -->
 </body>
 </html>
