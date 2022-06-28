@@ -78,8 +78,9 @@ body{
 }
 
 .principal__botao:hover{
+    background-color: var(--branco);
     color:hsl(213, 19%, 18%);
-    transition: 0.5s;
+    transition: 0.3s;
 }
 /*Página de resultado*/
 .resultado__votacao{
@@ -89,4 +90,8 @@ body{
 
 .resultado__main{
     color: var(--branco);
+}
+
+.elemento__selecionado{
+    background-color: var(--cinza-claro);
 }
