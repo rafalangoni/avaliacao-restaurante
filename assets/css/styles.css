@@ -72,6 +72,7 @@ body{
     border: none;
     border-radius: 40px;
     color: var(--branco);
+    cursor: pointer;
     padding: 1rem;
     width: 50vw;
 }
@@ -79,4 +80,13 @@ body{
 .principal__botao:hover{
     color:hsl(213, 19%, 18%);
     transition: 0.5s;
+}
+/*Página de resultado*/
+.resultado__votacao{
+    color: var(--branco);
+    font-size: 2rem;
+}
+
+.resultado__main{
+    color: var(--branco);
 }

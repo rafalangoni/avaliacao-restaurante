@@ -1,28 +1,19 @@
 const itensAvaliacao = document.querySelectorAll(".principal__lista-item");
-const botaoSubmit = document.querySelector(".principal__botao");
-console.log(botaoSubmit)
-const notas = [
-    1, 2, 3, 4, 5
-]
+const botaoSubmit = document.querySelector("#botao__submit");
+let resultadoRating = document.querySelector(".resultado__rating");
 let notaDoRestaurante = 0;
 
-itensAvaliacao.forEach( (elemento, indice) =>{
+itensAvaliacao.forEach(elemento => {
     elemento.addEventListener("click", () => {
-        if(elemento.innerHTML == notas[indice]){
-           notaDoRestaurante = elemento.innerHTML;
-           console.log(notaDoRestaurante)
-        }
-        
+        notaDoRestaurante = elemento.innerHTML;
     })
-    if(notaDoRestaurante == null || notaDoRestaurante == 0){
-        console.log("dentro do if do botao")
-        botaoSubmit.setAttribute('disabled', '');
-        console.log(elemento[indice])
-    }
-    
+    return notaDoRestaurante;
 })
-// for(let i = 0; i < itensAvaliacao.length; i++){
-//     itensAvaliacao.addEventListener("click", () => {
-//         console.log(itensAvaliacao.textContent)
-//     })
-// }
+
+botaoSubmit.addEventListener("click", () => {
+    if(notaDoRestaurante === 0){
+        alert('Please rate our restaurant!');
+        return;
+    }
+    resultadoRating.innerHTML = notaDoRestaurante
+})
