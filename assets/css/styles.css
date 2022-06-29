@@ -83,7 +83,7 @@ body{
     transition: 0.3s;
 }
 /*Página de resultado*/
-.resultado__votacao{
+.texto__votacao{
     color: var(--branco);
     font-size: 2rem;
 }

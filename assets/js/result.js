@@ -1,6 +1,6 @@
-import { avaliaRestaurante } from "./index.js";
+import { iterarSobreNotas } from "./index.js";
 
-avaliaRestaurante(itensAvaliacao);
+iterarSobreNotas();
 
-let resultadoRating = document.querySelector(".resultado__rating");
+let resultadoRating = document.querySelector(".span__resultado");
 resultadoRating.innerHTML = notaDoRestaurante;
