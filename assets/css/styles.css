@@ -82,7 +82,7 @@ body{
     color:hsl(213, 19%, 18%);
     transition: 0.3s;
 }
-/*Página de resultado*/
+
 .texto__votacao{
     color: var(--branco);
     font-size: 2rem;
