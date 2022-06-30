@@ -88,10 +88,15 @@ body{
     font-size: 2rem;
 }
 
-.resultado__votacao{
+.resultado__main{
     color: var(--branco);
+    display: none;
 }
 
 .elemento__selecionado{
     background-color: var(--cinza-claro);
+}
+
+.resultado__votacao{
+    color: var(--branco);
 }

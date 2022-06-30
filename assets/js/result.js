@@ -1,6 +1,6 @@
-import { iterarSobreNotas } from "./index.js";
+// import { iterarSobreNotas } from "./index.js";
 
-iterarSobreNotas();
+// iterarSobreNotas();
 
-let resultadoRating = document.querySelector(".span__resultado");
-resultadoRating.innerHTML = notaDoRestaurante;
+// let resultadoRating = document.querySelector(".span__resultado");
+// resultadoRating.innerHTML = notaDoRestaurante;
